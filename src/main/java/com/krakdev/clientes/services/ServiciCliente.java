@@ -47,6 +47,7 @@ public class ServiciCliente {
 		if (cliente != null) {
 			cliente.setNombre(clienteActualizado.getNombre());
 			cliente.setApellido(clienteActualizado.getApellido());
+			cliente.setMail(clienteActualizado.getMail());
 		}
 		return cliente;
 	}
